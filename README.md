@@ -36,3 +36,9 @@
     ```
         const loadPerson = pName => ({name: pName });
     ```
+- Rest Operator - Should be the last parameter
+    ``` 
+        const sub = (a,b,c,...numbers) = {}
+    ```
+- With the fuction keyword, we can use keyword 'argument' inside the function which represents the list of all the parameters.
+- Funtion inside the function is allowed.
