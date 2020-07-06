@@ -1,0 +1,15 @@
+## Section 7 : Working with DOM in JavaScript
+- console.dir(node_name) in console helps find all the objects inside node_name.
+- window object gives access to may objects. document is an object of window.
+- Mention script tag at the end or use 'defer' in the beginning with the script.
+- Browser parses HTML text and convert to a tree of nodes.(Element nodes and text node). Text node are for blank or whitespace character.
+- $0 always gives access to the last element selected in the "Elements" tab.
+- Querying Elements
+    - document.querySelector(CSS selector) - Takes any CSS selector (e.g. '#some-id', '.some-class' or 'div p.some-class') and returns the first (!) matching element in the DOM. Returns null if no matching element could be found.
+    - document.getElementById(Id) - Takes an ID (without #, just the id name) and returns the element that has this id. Since the same ID shouldn't occur more than once on your page, it'll always return exactly that one element. Returns null if no element with the specified ID could be found.
+    - document.querySelectorAll(CSS selector) - Takes any CSS selector (e.g. '#some-id', '.some-class' or 'div p.some-class') and returns all matching elements in the DOM as a static (non-live) NodeList. Returns and empty NodeList if no matching element could be found.
+    - document.getElementsByTagName(HTML TAG) - Takes an HTML tag (e.g. 'p') and returns a live HTMLCollection of matched elements in your DOM. Returns an empty HTMLCollection if not matching elements were found.
+    - document.getElementsByClassName(CSS CLASS) - Takes a CSS class g (e.g. 'some-class') and returns a live HTMLCollection of matched elements in your DOM. Returns an empty HTMLCollection if not matching elements were found.
+- Attributes are placed in HTML code on elements tag.On change it is refelected in properties
+- setAttribute method helps to set the attribute.
+- Properties are automatically added on created DOM objects.

@@ -42,3 +42,4 @@
     ```
 - With the fuction keyword, we can use keyword 'argument' inside the function which represents the list of all the parameters.
 - Funtion inside the function is allowed.
+- .bind is used to pass argument to the function, which will be used by the function when it is executed. First parameter in bind function is 'this'.
